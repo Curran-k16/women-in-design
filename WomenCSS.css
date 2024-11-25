@@ -1,13 +1,21 @@
 /*import fonts from google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
 /* css reset */
+*{
+    padding : 0;
+    margin: 0;
+    font-size: 100;
+    line-height: 1em;
+}
+
+
 /* grids*/
 .grid{
     display: flex;
     gap: 24px;
     flex-direction: row;
 }
-/* css coloum widths /*
+/* css coloum widths */
 grid-col-third {
 flex-basis: 33.33%;
 }
@@ -15,12 +23,6 @@ flex-basis: 33.33%;
 flex-basis: 66.66%;
 }
 
-*{
-    padding : 0;
-    margin: 0;
-    font-size: 100;
-    line-height: 1em;
-}
 
 /*defualt styles for whole page*/
 body {
